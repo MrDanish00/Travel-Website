@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFE066;
+    background-color: skyblue;
+}
+.nav-bar{
+    background-color: #1A1A40;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 35px;
+    font-size: 12px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+.nav-list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-left: 15px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: 	#F0EBD8;
+}
+.nav-list a:hover{
+    text-decoration: none;
+    color: 	#FFE066;
+}
+
+#search-bar{
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 3px 8px;
+    background-color: #F5F5F5;
+    border: 1px solid #E1C699;
+}
+#search-btn{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #333333;
+    background: #FFD700;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    font-size: 10px;
+}
+#search-btn:hover{
+    background-color: #cdb438;
+}
+
+.about-us{
+    background-color: #1A1A40;
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto;
+    
+}
+.about-title{
+    text-align: left;
+    width: 70%;
+    margin: 10px auto;
+    color: white;
+}
+.mission-div{
+    background-color: #1A1A40;
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto;
+    opacity: 0.9;
+}
+.mission-title{
+    text-align: left;
+    width: 70%;
+    margin: 10px auto;
+    color: white;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    
+    padding: 15px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card-info h3 {
+    margin: 5px 0;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    color: #333;
+  }
+
+  .card-info p {
+    margin: 2px 0;
+    font-size: 0.95em;
+    color: #555;
+  }
+#results{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1A1A40;
+    width: 94%;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
