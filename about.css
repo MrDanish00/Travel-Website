@@ -51,6 +51,16 @@ body{
     border: none;
     font-size: 10px;
 }
+.clear-btn{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #333333;
+    background: #FFD700;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    font-size: 10px;
+}
 #search-btn:hover{
     background-color: #cdb438;
 }
