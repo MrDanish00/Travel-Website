@@ -7,7 +7,8 @@ let suggestions = {
   usa: ["new york", "los santos"],
   canada: ["toronto", "ontario"],
   australia: ["sydney", "melbourne"],
-  england: ["london", "manchester"]
+  england: ["london", "manchester"],
+  country: ["new york","london"]
 
 }
 const timeZoneMap = {
@@ -87,6 +88,10 @@ function getSuggestion() {
   }
   else if(input === "canada" || input === "toronto" || input === "ontario"){
     let output = suggestions.canada;
+    getTime(output);
+  }
+  else if(input === "country"){
+    let output = suggestions.country;
     getTime(output);
   }
 }
